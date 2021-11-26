@@ -1,0 +1,102 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>	
+
+    <script src="{% static 'js/main.js' %}" defer></script>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<!-- ***BODY CONTENT*** -->
+<body>
+    <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="">
+            <img src="{% static 'content/logo.svg' %}" width="112" height="28">
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          
+      
+          <div class="navbar-end">
+            <a class="navbar-item">
+                Home
+              </a>
+              <a class="navbar-item">
+                Contacto
+              </a>
+              <a class="navbar-item">
+                Documentation
+              </a>
+          </div>
+        </div>
+      </nav>
+    <!-- <section class="section first">
+        <div class="content">
+            <div class="boxes">
+                <div class="box a">BOX 1</div>
+                <div class="box b">BOX 2</div>
+                <div class="box c">BOX 3</div>
+            </div>
+            <div class="card">
+                <h1 class="title">hello</h1>
+            </div>
+        </div>
+    </section>
+    <section class="section sec ">
+        <div class="square">
+
+        </div>
+    </section>
+
+    <div class="boxes">
+        <div class="box a">BOX 1</div>
+        <div class="box b">BOX 2</div>
+        <div class="box c">BOX 3</div>
+    </div> -->
+    <div id="container">
+        <div class="module green">
+            <div class="textcont">
+                <div class="title">hello world🌝</div>
+            </div>
+        </div>
+        <div class="module yellow"><div class="textcont">
+            <div class="title">hello world 🚀</div>
+        </div></div>
+        <div class="module purple">
+            <div class="textcont">
+                <div class="title">hello world☀️</div>
+            </div>
+        </div>
+        <div class="module orange">
+            <div class="textcont">
+                <div class="title">hello world ⭐️</div>
+            </div>
+        </div>
+        <div class="module blue">
+            <div class="textcont">
+                <div class="title">hello world🌃</div>
+            </div>
+        </div>
+        <div class="module red">
+            <div class="textcont">
+                <div class="title">hello world 🎆</div>
+            </div>
+        </div>
+      </div>
+</body>
+</html>
